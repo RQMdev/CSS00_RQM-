@@ -1,0 +1,123 @@
+/* DEBUT Gestion de la hauteur */
+html, body, .container-fluid {
+  height: 100%;
+}
+
+.firstRow {
+  height: 14.2857142857%;
+}
+.headerRow {
+  height: 100%;
+}
+
+.colonneRow {
+  height: 85.7142857142%;
+}
+
+.colonne {
+  height: 100%;
+  padding: 0;
+}
+
+.bigSquare {
+  height: 66.66666666%;
+}
+
+.smallSquare {
+  height: 33.33333333%;
+}
+/* FIN Gestion de la hauteur */
+
+/* DEBUT Gestion des tuiles */
+.HEADER {
+  background-color: #6b3e26;
+  color: white;
+}
+
+.TROPHY {
+  background: url(../img/svg/ice-cream-27.svg) center no-repeat;
+  background-color: #ffc5d9;
+  background-size: 50%;
+  color: black;
+}
+
+.ENTERTAINEMENT {
+  background: url(../img/png/ice-cream-17.png) center no-repeat;
+  background-color: #c2f2d0;
+  background-size: 50%;
+  color: black;
+}
+
+.SPORTS {
+  background: url(../img/png/ice-cream-7.png) center no-repeat;
+  background-color: #fdf5c9;
+  background-size: 50%;
+  color: black;
+}
+
+.FOOD {
+  background: url(../img/png/ice-cream-24.png) center no-repeat;
+  background-color: #ffcb85;
+  background-size: 50%;
+  color: black;
+}
+
+.KNOW {
+  background: url(../img/png/ice-cream-14.png) center no-repeat;
+  background-color: #ffc5d9;
+  background-size: 50%;
+  color: black;
+}
+
+.GEO {
+  background: url(../img/png/ice-cream-26.png) center no-repeat;
+  background-color: #c2f2d0;
+  background-size: 50%;
+  color: black;
+}
+
+.HISTORY {
+  background: url(../img/png/ice-cream-16.png) center no-repeat;
+  background-color: #fdf5c9;
+  background-size: 25%;
+  color: black;
+}
+
+.SCIENCE {
+  background: url(../img/png/ice-cream-6.png) center no-repeat;
+  background-color: #ffcb85;
+  background-size: 50%;
+  color: black;
+}
+
+.TV {
+  background: url(../img/png/ice-cream-25.png) center no-repeat;
+  background-color: #c2f2d0;
+  background-size: 50%;
+  color: black;
+}
+
+.MUSIC {
+  background: url(../img/png/ice-cream-15.png) center no-repeat;
+  background-color: #ffc5d9;
+  background-size: 50%;
+  color: black;
+}
+
+.PROFILE {
+  background: url(../img/png/ice-cream-5.png) center no-repeat;
+  background-color: #ffcb85;
+  background-size: 50%;
+  color: black;
+}
+
+[class*="col-"] {
+  box-sizing: border-box;
+  border: 5px solid white;
+  font-size: 38px;
+  font-weight: 400;
+  font: "Tahoma", sans-serif;
+  text-align: center;
+  vertical-align: center;
+} 
+/* FIN Gestion des tuiles */
